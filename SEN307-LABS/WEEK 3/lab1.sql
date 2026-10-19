@@ -1,0 +1,6 @@
+SELECT VERSION(); 26.7.0
+SELECT CURRENT_VERSION();root@localhost
+SELECT NOW(); 2026-10-19 23:30:37
+STATUS; mysql  Ver 26.7.0 for Win64 on x86_64 (MySQL Community Server - GPL)
+SHOW VARIABLES LIKE 'port'; 3306
+SHOW TABLES; Empty set (0.021 sec)
