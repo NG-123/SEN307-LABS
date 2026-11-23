@@ -1,0 +1,12 @@
+Test 1: Error Code: 1048. Column 'dept_name' cannot be null
+
+Test 2: Error Code: 3819. Check constraint 'chk_credit_units' is violated.
+
+Test 3: Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`sen307_2412387`.`student`, CONSTRAINT `student_ibfk_1` FOREIGN KEY (`dept_id`) REFERENCES `department` (`dept_id`))
+
+Test 4: Error Code: 1265. Data truncated for column 'gender' at row 1
+
+My tests: INSERT INTO Department (dept_name) VALUES ("Nangar")
+	    INSERT INTO Department (dept_name) VALUES ("Nangar")
+
+Error message: Error Code: 1062. Duplicate entry 'Nangar' for key 'department.dept_name'
